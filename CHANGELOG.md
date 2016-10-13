@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.15
+
+* Add parameters for stage
+
 ## 4.1.14
 
 * Add cerfa boxe : 3vt (PEA)
