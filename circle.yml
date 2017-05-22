@@ -15,7 +15,12 @@ test:
   pre:
     - git fetch
   override:
-    - make test
+    - nosetests:
+        parallel: true
+        files:
+          - tests/**/*.py
+    - openfisca-run-test --nose tests --node-index $CIRCLE_NODE_INDEX --nb-nodes $CIRCLE_NODE_TOTAL:
+        parallel: true
     - ./check-version-bump.sh
 deployment:
   master:
