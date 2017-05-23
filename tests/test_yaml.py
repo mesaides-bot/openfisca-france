@@ -11,7 +11,7 @@ from cache import tax_benefit_system
 nottest(generate_tests)
 
 def test():
-    tests_directory = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+    tests_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), 'ludwig'))
     test_generator = generate_tests(tax_benefit_system, tests_directory)
 
     for test in test_generator:
