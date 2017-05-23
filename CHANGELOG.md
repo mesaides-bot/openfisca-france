@@ -1,6 +1,12 @@
 # Changelog
 
-### 18.2.5 - [#760](https://github.com/openfisca/openfisca-france/pull/759)
+### 18.2.6 - [#763]
+
+* Changement mineur
+* Détails :
+  - Introduit la réforme `smic_h_b_9_euros`
+
+### 18.2.5 - [#760](https://github.com/openfisca/openfisca-france/pull/760)
 
 * Changement mineur
 * Détails :
