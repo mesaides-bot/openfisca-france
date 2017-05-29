@@ -18,4 +18,4 @@ flake8:
 test: check-syntax-errors check-no-prints
 	@# Launch tests from openfisca_france/tests directory (and not .) because TaxBenefitSystem must be initialized
 	@# before parsing source files containing formulas.
-	nosetests tests/test_yaml.py --exe --with-doctest
+	openfisca-run-test tests/ludwig/*.yaml --extensions openfisca_cd93 openfisca_paris openfisca_rennesmetropole
