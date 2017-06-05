@@ -1,0 +1,35 @@
+some+basic+template
+with
+	multiple indented lines
+===============================================================================================================
+{
+	"step1": {
+		"selected": "field1",
+		"value": 1234
+	},
+	"step2": {
+		"checked": "selection",
+		"value": [
+			1,
+			"deux",
+			{
+				"trois": 4
+			}
+		]
+	},
+	"step3": {
+		"filled": "demande_situation_detail",
+		"value": "Ceci est un texte libre"
+	},
+	"step4": {
+		"clicked": "simulation",
+		"value": null
+	}
+}
+{
+	"data": "123",
+	"toBe": {
+		"used": 1,
+		"as": "template for expected state"
+	}
+}
